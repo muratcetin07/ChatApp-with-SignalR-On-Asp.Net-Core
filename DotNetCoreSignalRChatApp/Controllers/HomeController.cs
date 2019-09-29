@@ -13,12 +13,7 @@ namespace DotNetCoreSignalRChatApp.Controllers
 
         public IActionResult Index()
         {
-            var model = new HomeViewModel()
-            {
-                Messages = new List<Message>()
-            };
-
-            return View(model);
+            return View();
         }
 
 
